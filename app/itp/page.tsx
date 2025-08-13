@@ -13,7 +13,7 @@ export default function Itp() {
 					</Link>
 				</div>
 				<iframe
-					src="http://127.0.0.1:8000/"
+					src="http://ciociu-cosmin.eu/:8000/"
 					title="Localhost 8000"
 					className="w-full h-screen border-0"
 					sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
