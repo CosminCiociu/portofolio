@@ -17,7 +17,7 @@ export default function NoteApp() {
 					src="https://ciociu-cosmin.eu:8080/"
 					title="Note App"
 					className="w-full h-screen border-0"
-					sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+					sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
 					allow="clipboard-write; fullscreen"
 				/>
 			</div>
