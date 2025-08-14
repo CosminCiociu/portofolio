@@ -37,17 +37,14 @@ const apps: App[] = [
 		],
 		platforms: ['Laravel', 'Bootstrap', 'SQL'],
 		url: 'https://terapie.ro',
-		
 	},
 	{
 		id: 2,
-		name: 'CryptoWatch',
-		description: 'Real-time cryptocurrency tracking and portfolio management',
-		technologies: ['Flutter', 'Dart', 'Firebase'],
-		platforms: ['iOS', 'Android'],
-		downloads: '50K+',
-		url: 'https://cryptowatch.example.com',
-		rating: 4.7,
+		name: 'Notes App',
+		description: 'A simple note-taking app built with React. Features include adding, editing, and deleting notes, error handling with alerts notifications, backend build with expressJs, and a responsive design for all devices.',
+		technologies: ['React', 'TypeScript', 'CSS', 'MongoDB', 'Node.js', 'Express.js'],
+		platforms: ['Express.js', 'React', 'MongoDB'],
+		url: '/note-app',
 	},
 ];
 
@@ -58,7 +55,12 @@ const AppShowcase = () => {
 				<h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center">Featured Apps</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
 					{apps.map((app) => (
-						<Link href={app.url} target="_blank" className="group" key={app.id}>
+						<Link 
+							href={app.url} 
+							{...(app.id === 1 ? { target: "_blank" } : {})} 
+							className="group" 
+							key={app.id}
+						>
 						<div key={app.id} className="group bg-gradient-to-b from-gray-800/50 to-gray-900/50 rounded-xl sm:rounded-2xl p-1">
 							<div className="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl sm:rounded-2xl overflow-hidden p-4 sm:p-6 relative">
 								<div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
@@ -75,11 +77,9 @@ const AppShowcase = () => {
 												</svg>
 											) : (
 												<svg className="w-10 h-10 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-													<path
-														strokeLinecap="round"
-														strokeLinejoin="round"
-														d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-													/>
+														<path d="M18.6375 9.04176L13.3875 14.2418C13.3075 14.3218 13.1876 14.3718 13.0676 14.3718H10.1075V11.3118C10.1075 11.1918 10.1575 11.0818 10.2375 11.0018L15.4376 5.84176" stroke="currentColor" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+														<path d="M18.7076 11.9818V21.6618C18.7076 21.9018 18.5176 22.0918 18.2776 22.0918H2.84756C2.60756 22.0918 2.41754 21.9018 2.41754 21.6618V6.23176C2.41754 5.99176 2.60756 5.80176 2.84756 5.80176H12.4875" stroke="currentColor" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+														<path d="M18.3863 2.90824L16.859 4.43558L20.0551 7.63167L21.5824 6.10433L18.3863 2.90824Z" stroke="currentColor" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 												</svg>
 											)}
 											{/* Animated Glow Effect */}
