@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 export default function Itp() {
 	return (
 		<main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white overflow-x-hidden">
@@ -13,7 +14,7 @@ export default function Itp() {
 					</Link>
 				</div>
 				<iframe
-					src="https://ciociu-cosmin.eu:8000/"
+					src="http://ciociu-cosmin.eu:8000/"
 					title="Cosmin Ciociu's ITP"
 					className="w-full h-screen border-0"
 					sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
