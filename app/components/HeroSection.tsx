@@ -21,7 +21,7 @@ const HeroSection = () => {
 						Full Stack Software Developer
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4">
-						Full-stack developer with 4+ years of experience, specializing in PHP (Laravel, Symfony, CodeIgniter) and modern JavaScript frameworks like Vue 3. I build robust, user-friendly applications, taking ownership from solution design to delivery. Skilled in communicating with non-technical stakeholders and delivering tailored software for B2B clients. Recent projects include complex API integrations, invoicing systems, and CRM modules. Bachelor’s in Software Development (Brasov). Open to B2B collaborations.
+						Full-stack developer with 5+ years of experience delivering 30+ scalable web applications, specializing in PHP (Laravel, Symfony, CodeIgniter) and modern JavaScript frameworks (React, Vue). Consistently delivered projects with 98% on-time completion, integrating 15+ third-party APIs (Stripe, Google, Twilio, Nexus ERP, etc.) to streamline operations and reduce manual workloads by up to 60%. Skilled in translating business requirements into technical solutions, leading to measurable client ROI gains of 20–40%. Known for collaborating with non-technical stakeholders to align development with strategic goals. Over the past two years, executed 12+ B2B projects as a freelancer — including major collaborations with AlfaDevelopers — creating custom systems that boosted client efficiency, improved reliability, and enhanced user experience.
 					</p>
 				</div>
 
